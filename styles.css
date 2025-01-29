@@ -48,6 +48,20 @@ h2 {
     font-weight: 900;
 }
 
+.subtext,
+.rectangle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
 .third {
     color: #1f2937;
     font-size: 36px;
