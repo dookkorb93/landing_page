@@ -38,6 +38,16 @@ ul * {
     gap: 20px;
 }
 
+.content-one {
+    background-color: #1F2937;
+}
+
+h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
 .footer {
     color: #eee;
     background-color: #1F2937;
