@@ -6,6 +6,32 @@ body {
     flex-direction: column;
 }
 
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 12px;
+    padding: 12px;
+}
+
+ul * {
+    list-style-type: none;
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.right-links {
+    display: flex;
+    gap: 20px;
+}
+
 .footer {
     color: #eee;
     background-color: #1F2937;
