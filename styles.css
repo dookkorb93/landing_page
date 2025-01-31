@@ -93,6 +93,27 @@ img {
     border-radius: 10px;
 }
 
+.content-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0 200px;
+}
+
+.speaker {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+
 .footer {
     color: #eee;
     background-color: #1F2937;
