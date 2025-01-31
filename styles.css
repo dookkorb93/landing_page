@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.header {
+.content-one {
     background-color: #1F2937;
 }
 
@@ -39,7 +39,7 @@ ul * {
     gap: 40px;
 }
 
-.h2 {
+.headertwo {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
@@ -62,6 +62,8 @@ ul * {
 
 img {
     max-height: 250px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px purple, -1em 0 .4em thistle;
 }
 
 .content-two {
@@ -115,18 +117,13 @@ img {
     margin-right: 280px;
 }
 
-.content-four {
-    margin: 25px;
-    padding: 25px;
-}
-
 .end-content {
     background-color: #3882f6;
     color: white;
     display: flex;
-    flex-direction: column;
-    margin: 30px;
-    padding: 30px;
+    justify-content: space-around;
+    margin: 50px 100px;
+    padding: 50px;
     border-radius: 10px;
 }
 
