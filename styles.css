@@ -115,6 +115,35 @@ img {
     margin-right: 280px;
 }
 
+.content-four {
+    margin: 25px;
+    padding: 25px;
+}
+
+.end-content {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.action {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    margin-top: 10px;
+}
+
 .footer {
     color: #eee;
     background-color: #1F2937;
