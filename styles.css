@@ -9,14 +9,12 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding-bottom: 20px;
 }
 
 .title {
     color: #F9FAF8;
     font-size: 24px;
-    margin: 12px;
-    padding: 12px;
+    padding: 10px;
 }
 
 ul * {
@@ -26,12 +24,18 @@ ul * {
     color: #e5e7eb;
 }
 
-.headertop,
-.headerbody {
+.headertop {
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.headerbody {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
 }
 
 .right-links {
@@ -39,7 +43,7 @@ ul * {
     gap: 40px;
 }
 
-h2 {
+.h2 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
@@ -62,10 +66,7 @@ h2 {
 }
 
 img {
-    display: flex;
-    justify-content: flex-end;
-    max-width: 500px;
-    max-height: 200px;
+    max-height: 250px;
 }
 
 .footer {
