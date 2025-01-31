@@ -64,6 +64,15 @@ img {
     max-height: 250px;
 }
 
+.third {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
 .footer {
     color: #eee;
     background-color: #1F2937;
