@@ -11,7 +11,6 @@
 .title {
     color: #F9FAF8;
     font-size: 24px;
-    padding: 10px;
 }
 
 ul * {
@@ -32,7 +31,7 @@ ul * {
 .headerbody {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 100px;
 }
 
 .right-links {
@@ -44,12 +43,10 @@ ul * {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 2px;
 }
 
 .subtext {
-    display: flex;
-    flex-wrap: wrap;
-    width: 700px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -60,6 +57,7 @@ ul * {
     border: none;
     border-radius: 8px;
     padding: 8px 32px;
+    margin-top: 10px;
 }
 
 img {
